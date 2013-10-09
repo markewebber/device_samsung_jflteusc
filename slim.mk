@@ -1,7 +1,7 @@
-$(call inherit-product, device/samsung/jfltetmo/full_jfltetmo.mk)
+$(call inherit-product, device/samsung/jflteusc/full_jflteusc.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := jfltetmo
+PRODUCT_RELEASE_NAME := jflteusc
 
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/gsm.mk)
