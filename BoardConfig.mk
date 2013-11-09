@@ -20,7 +20,7 @@
 # definition file).
 #
 
-# inherit from common D2
+# inherit from common jf
 -include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
