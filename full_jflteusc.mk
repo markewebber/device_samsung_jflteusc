@@ -21,9 +21,12 @@
 # lines, full and maguro, hence its name.
 #
 
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from d2usc device
+# Inherit from jflteusc device
 $(call inherit-product, device/samsung/jflteusc/device.mk)
 
 # Set those variables here to overwrite the inherited values.
