@@ -1,6 +1,6 @@
 [
   {
-    "repository": "Cyanogenmod/device_samsung_qcom-common",
+    "repository": "CyanogenMod/android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
     "branch": "cm-12.0"
   },
@@ -25,13 +25,13 @@
     "branch": "lp5.0-caf-8960"
   },
   {
-    "repository": "nicklovell23/device_samsung_jf-common",
+    "repository": "nicklovell23/android_device_samsung_jf-common",
     "target_path": "device/samsung/jf-common",
     "branch": "lp5.0"
   },
   {
-    "repository": "android_kernel_samsung_jf",
-    "target_path": "kernel/samsung/jf"
+    "repository": "CyanogenMod/android_kernel_samsung_jf",
+    "target_path": "kernel/samsung/jf",
     "branch": "cm-12.0"
   }
 ]
