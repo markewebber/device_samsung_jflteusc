@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/jflteusc/full_jflteusc.mk)
 
-# Release name
-PRODUCT_RELEASE_NAME := jflteusc
-
 # Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
