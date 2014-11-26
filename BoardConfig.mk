@@ -19,9 +19,4 @@
 -include vendor/samsung/jflter970/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jflteusc
-
-# Kernel
-TARGET_KERNEL_CONFIG         := jf_usc_defconfig
-
-
+TARGET_OTA_ASSERT_DEVICE := jflteusc,jflte
