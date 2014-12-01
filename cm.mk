@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/jflteusc/full_jflteusc.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common SLIM stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += 
     PRODUCT_NAME=jflteusc /
@@ -14,7 +14,7 @@ PRODUCT_BUILD_PROP_OVERRIDES +=
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := slim_jflteusc
+PRODUCT_NAME := cm_jflteusc
 
 
 
